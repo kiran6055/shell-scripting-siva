@@ -1,4 +1,4 @@
-# this code is to take backup from the github repo which are having tags this will take backup of the particular tag in archive.zip format 
+# this code is to take backup from the github repo which are having tags this will take backup of the particular tag in archive.zip format the zip foramt will be data_reponame_tag_archive.zip
 
 #!/bin/bash
 
