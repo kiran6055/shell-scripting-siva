@@ -53,7 +53,7 @@ if [ -n "$git_tags" ]; then
         dir_path="/home/ec2-user/git/"
 
         # Download the ZIP archive for the selected tag
-        git archive "$SELECTED_TAG" --format=zip -o "$dir_path/${DATE}_${REPO_NAME}_${SELECTED_TAG}_archive.zip" &>>$LOG_FILE
+        git archive "$SELECTED_TAG" --format=zip -o "$dir_path/${DATE}_${REPO_NAME}_git_tag${SELECTED_TAG}.zip" &>>$LOG_FILE
 
         # Display message indicating successful download
         echo -e "$G Archive downloaded successfully to: $dir_path/${DATE}_${REPO_NAME}_${SELECTED_TAG} $N"
